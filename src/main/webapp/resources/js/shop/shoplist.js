@@ -17,6 +17,7 @@ $(function() {
 			}
 		});
 	}
+	
 	function handleUser(data) {
 		$('#user-name').text(data.name);
 	}
